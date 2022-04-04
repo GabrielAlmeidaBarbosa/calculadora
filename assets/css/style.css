@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap");
+
+:root {
+  --ocean-one: #02a676;
+  --ocean-two: #008c72;
+  --ocean-tree: #007369;
+  --ocean-four: #005a5b;
+  --ocean-five: #003840;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+table {
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--ocean-one);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-area {
+  width: 400px;
+  height: 500px;
+  background-color: var(--ocean-five);
+  padding: 3px;
+  box-shadow: 0 0 30px rgb(0, 115, 105, 1);
+}
+
+.calculator {
+  width: 100%;
+  height: 100%;
+  /* background-color: var(--ocean-tree); */
+}
+
+.display {
+  width: 100%;
+  height: 30%;
+}
+
+.input {
+  width: 100%;
+  padding: 0 10px;
+  background-color: var(--ocean-five);
+  text-align: end;
+  border: 0;
+}
+
+.calculation {
+  height: 40%;
+  font-size: 24px;
+  color: #bdbdbd;
+}
+
+.count {
+  height: 60%;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.buttons {
+  width: 100%;
+  height: 70%;
+}
+
+.buttons table {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons table tbody {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons table tbody tr {
+  padding: 2px 0;
+}
+
+.buttons table tbody tr td {
+  width: 25%;
+  padding: 2px 2px;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: var(--ocean-four);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #004d4e;
+}
+
+.button:active {
+  background-color: #003c3d;
+}
+
+.button img {
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+}
+
+.operators {
+  background-color: var(--ocean-two);
+  color: #21e71a;
+}
+
+.operators:hover {
+  background-color: #00745e;
+}
+
+.operators:active {
+  background-color: #006452;
+}
+
+.result {
+  background-color: #21e71a;
+  color: var(--ocean-two);
+}
+
+.result:hover {
+  background-color: #1dc717;
+}
+
+.result:active {
+  background-color: #1aaf15;
+  color: #ffffff;
+}

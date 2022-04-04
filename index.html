@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <main class="main">
+        <div class="calculator-area">
+            <div class="calculator">
+                <div class="display">
+                    <input id="count" class="input count" type="text" value="0" disabled />
+                    <input id="calculation" class="input calculation" type="text" disabled />
+                </div>
+                <div class="buttons">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button id="division-button" class="button operator operators">/</button>
+                                </td>
+                                <td>
+                                    <button id="multiplication-button" class="button operator operators">x</button>
+                                </td>
+                                <td>
+                                    <button id="subtraction-button" class="button operator operators">-</button>
+                                </td>
+                                <td>
+                                    <button id="sum-button" class="button operator operators">+</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="button-7" class="button number">7</button>
+                                </td>
+                                <td>
+                                    <button id="button-8" class="button number">8</button>
+                                </td>
+                                <td>
+                                    <button id="button-9" class="button number">9</button>
+                                </td>
+                                <td rowspan="2">
+                                    <button id="clear-button" class="button operators" class="button">C</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="button-4" class="button number">4</button>
+                                </td>
+                                <td>
+                                    <button id="button-5" class="button number">5</button>
+                                </td>
+                                <td>
+                                    <button id="button-6" class="button number">6</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="button-1" class="button number">1</button>
+                                </td>
+                                <td>
+                                    <button id="button-2" class="button number">2</button>
+                                </td>
+                                <td>
+                                    <button id="button-3" class="button number">3</button>
+                                </td>
+                                <td rowspan="2">
+                                    <button id="result-button" class="button result">=</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button id="button-0" class="button number">0</button>
+                                </td>
+                                <!--
+                                <td>
+                                    <button id="point-button" class="button">.</button>
+                                </td>
+                                -->
+                                <td>
+                                    <button id="button-delete-character" class="button delete">
+                                        <img class="delete" src="./assets/images/icon-delete-edit.png" />
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
